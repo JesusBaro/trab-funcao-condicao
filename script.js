@@ -1,5 +1,5 @@
 //1 - função que exiba uma mensagem no console
-let msg = `Olha sou uma mensagem e espero aparecer no console.log `
+let msg = `Olá sou uma mensagem e espero aparecer no console.log `
 function exibirMsg() {
     console.log(msg)
 }
@@ -23,8 +23,7 @@ perfil(`Jésus`, 24, `eletronica ` )
 function audiovisual(filme, musica) {
     console.log(`Um filme que indico é a ${filme} e uma música a ${musica}`)
 }
-
-audiovisual(`A viagem de chiriro`, `Tempos Artificias de Luedji Luna`)
+audiovisual(`A viagem de Chiriro`, `Tempos Artificias de Luedji Luna`)
 
 
 //5 - função que retorne o triplo do número recebido no parâmetro da função
@@ -37,7 +36,7 @@ triplo(10)
 //6 - função que  verifique se uma  variável é true ou false
 let _nome = `Jésus`
 function verificacao(){
-    if (_nome === `Beyoncé`) {
+    if (_nome == `Beyoncé`) {
         console.log(`Você é a Beyoncé.`)
     } else {
         console.log(`Você não é a Beyoncé. Você é o ${_nome}, se liga!`)
